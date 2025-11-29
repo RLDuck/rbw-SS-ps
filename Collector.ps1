@@ -6,7 +6,7 @@ ___       ___  ___       ___  _________  ___  ___
   \ \  \____\ \  \ \  \____\ \  \   \ \  \ \ \  \ \  \ 
    \ \_______\ \__\ \_______\ \__\   \ \__\ \ \__\ \__\
     \|_______|\|__|\|_______|\|__|    \|__|  \|__|\|__|
- Made with love by Lily<3                                                                                                             
+ Ranked Bedwars Screenshare Team                                                                                                              
 "@ -ForegroundColor Cyan                                               
 
 Write-Host @"
