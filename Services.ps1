@@ -76,6 +76,7 @@ $settings = @(
     @{ Name = "PowerShell Logging"; Path = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging"; Key = "EnableScriptBlockLogging"; Warning = "Disabled"; Safe = "Enabled" },
     @{ Name = "Activities Cache"; Path = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\System"; Key = "EnableActivityFeed"; Warning = "Disabled"; Safe = "Enabled" },
     @{ Name = "Prefetch Enabled"; Path = "HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters"; Key = "EnablePrefetcher"; Warning = "Disabled"; Safe = "Enabled" }
+    @{ Name="Pca Key"; Paths=@("HKCU:\SOFTWARE\Policies\Microsoft\Windows\AppCompat","HKLM:\SOFTWARE\Policies\Microsoft\Windows\AppCompat"); Key="DisablePCA"; Warning="Disabled"; Safe="Enabled" }
 )
 
 foreach ($s in $settings) {
